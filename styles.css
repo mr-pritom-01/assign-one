@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* manu bar starts */
+.logo-photo {
+    width: 180px;
+    height: 15vh;
+    box-shadow: 5px 5px 10px;
+    border: none;
+}
+
+.menu-bar {
+    /* height: 10vh; */
+    background-color: rgba(234, 134, 199, 0.678);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.options {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.lis:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+
+/* banner section starts */
+
+.banner-section {
+    height: 809px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.banner-text {
+    padding: 50px;
+    text-align: left;
+}
+
+.bnr-img {
+    width: 635px;
+    height: 800px;
+    padding: 10px 10px 0px 100px;
+}
+
+.primary-hd {
+    font-size: 80px;
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+}
+
+.primary-pg {
+    font-size: 20px;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.primary-btn {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+}
+
+/* bonus section starts */
+
+
+
+/* the deal section starts */
+.deal-container {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
