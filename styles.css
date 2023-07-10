@@ -40,8 +40,10 @@
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
+    text-align: center;
+    align-content: center;
 }
 
 .banner-text {
@@ -70,6 +72,7 @@
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
     line-height: 30px;
+    padding: 10px;
 }
 
 .primary-btn {
@@ -80,7 +83,14 @@
     border-radius: 8px;
     background: #E55473;
     color: white;
+    border: none;
+    box-shadow: 3px 3px 10px;
 }
+
+.primary-btn:hover {
+    cursor: pointer;
+}
+
 
 /* bonus section starts */
 
@@ -88,8 +98,26 @@
 
 /* the deal section starts */
 .deal-container {
-    width: 1922px;
+    /* width: 1922px; */
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+}
+
+.deal-hd {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+}
+.deal-mid {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.deal-img {
+    text-align: center;
+    margin: auto;
 }
