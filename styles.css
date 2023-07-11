@@ -29,7 +29,7 @@
 .options {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 50px;
     font-size: 30px;
     padding: 20px;
     font-weight: bold;
@@ -39,6 +39,7 @@
     text-decoration: underline;
     background-color: black;
     color: white;
+    padding: 5px;
 }
 
 /* banner section starts */
@@ -131,6 +132,7 @@
     line-height: 35px;
     text-decoration-line: underline;
     gap: 340px;
+    margin-top: 25px;
 }
 
 
@@ -144,16 +146,20 @@
     cursor: pointer;
     box-shadow: 1px 1px 5px;
 }
+
 .boxx:hover {
     background-color: #e5a9b6;
     padding: 15px;
 }
+
 .two {
     background-color: rgba(5, 151, 160, 0.15);
 }
+
 .three {
     background-color: rgba(71, 125, 17, 0.15);
 }
+
 .boxx-img {
     height: min-content;
     width: min-content;
@@ -256,6 +262,8 @@
 
 }
 
+
+
 /* get the latest deal part starts here */
 
 .subscribe-part {
@@ -285,6 +293,53 @@
 .center {
     text-align: center;
     padding: 85px;
+}
+
+/* this is the extra part added by me */
+
+.info-per {
+    height: 1500px;
+    width: auto;
+    background-image: url("Flower Asset/gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 300px;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgb(232, 209, 209);
+}
+
+.buy {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 150px;
+    align-items: center;
+}
+
+.buyy {
+    height: 750px;
+    width: 500px;
+    /* background-color: #E55473; */
+    background-image: url("Flower Asset/gradienttype2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    box-shadow: 1px 1px 5px;
+    gap: 40px;
+}
+
+.buyy:hover {
+    box-shadow: 3px 3px 5px;
+    padding: 25px;
+}
+
+.buy-img {
+    height: 3000;
+    width: 3000;
+    padding-top: 50px;
 }
 
 /* final task footer section starts here */
