@@ -1,4 +1,3 @@
-
 /* বিগহিনার হিসেবে অনেক ভুল এবং অনেক কমতি থাকতে পারে,
 সেসব ভুল আমাদের ধরিয়ে দিলে সেসব ঠিক করার চেষ্টা করবো। */
 
@@ -103,11 +102,44 @@
 
 /* bonus section starts */
 
+.bonus {
+    height: 100vh;
+}
 
+.picture-row {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+/* bottom icons */
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1450px;
+    height: 320px;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.box {
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px;
+    padding: 30px;
+}
+.box:hover {
+    background-color: gainsboro;
+    padding: 40px;
+}
 
 /* the hot deal section starts */
 .deal-container {
-    /* width: 1922px; */
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -201,6 +233,7 @@ footer {
     background-color: #111010;
     color: white;
 }
+
 .footer-content {
     align-items: center;
     text-align: center;
@@ -210,21 +243,25 @@ footer {
 .primary-color {
     color: #E55473;
 }
+
 .foter-hd {
     padding-top: 80px;
     font-size: 65px;
+    text-align: center;
 }
+
 .foter-pg {
     color: rgba(255, 255, 255, 0.90);
-font-size: 23px;
-font-weight: 400;
-line-height: 30px;
-padding: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
 }
+
 .end-line {
     color: rgba(255, 255, 255, 0.40);
-font-size: 19px;
-font-weight: 400;
+    font-size: 19px;
+    font-weight: 400;
 }
 
 /* The End */
