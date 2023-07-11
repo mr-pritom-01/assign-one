@@ -85,6 +85,7 @@
     color: white;
     border: none;
     box-shadow: 3px 3px 10px;
+    font-size: 20px;
 }
 
 .primary-btn:hover {
@@ -112,33 +113,72 @@
     font-weight: 800;
     padding: 10px;
 }
+
 .deal-mid {
     text-align: center;
     padding: 20px;
     margin: auto;
 }
+
 .deal-img {
     text-align: center;
     margin: auto;
 }
+
 /* instagram section starts */
-.instagram {
+.instagram-part {
     text-align: center;
     justify-content: space-around;
+    background-color: white;
+    height: 100vh;
+    align-items: center;
 }
+
 .insta-pg {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-padding: 20px;
-margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
+
+.pic-part {
+    padding: 180px;
+}
+
 .insta-pic {
     display: flex;
-    gap: 30px;
+    gap: 23px;
     text-align: center;
     justify-content: center;
 
+}
+
+.subscribe-part {
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    height: 450px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.inpt {
+    width: 700px;
+    height: 58px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.center {
+    text-align: center;
+    padding: 85px;
 }
