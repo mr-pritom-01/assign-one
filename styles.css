@@ -18,7 +18,6 @@
 }
 
 .menu-bar {
-    /* height: 10vh; */
     background-color: rgba(234, 134, 199, 0.678);
     display: flex;
     align-items: center;
@@ -176,6 +175,7 @@
 }
 
 /* bottom icons */
+
 .icon-row {
     display: flex;
     justify-content: space-around;
@@ -202,6 +202,7 @@
 }
 
 /* the hot deal section starts */
+
 .deal-container {
     height: 620px;
     border-radius: 8px;
@@ -229,6 +230,7 @@
 }
 
 /* instagram section starts */
+
 .instagram-part {
     text-align: center;
     justify-content: space-around;
@@ -261,8 +263,6 @@
     cursor: pointer;
 
 }
-
-
 
 /* get the latest deal part starts here */
 
@@ -321,7 +321,6 @@
 .buyy {
     height: 750px;
     width: 500px;
-    /* background-color: #E55473; */
     background-image: url("Flower Asset/gradienttype2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,7 +354,9 @@
     align-items: center;
     margin-bottom: 350px;
 }
+
 /* final task footer section starts here */
+
 footer {
     height: 500px;
     background-color: #111010;
@@ -400,4 +401,6 @@ footer {
 /* বিগহিনার হিসেবে অনেক ভুল এবং অনেক কমতি থাকতে পারে,
 সেসব ভুল আমাদের ধরিয়ে দিলে সেসব ঠিক করার চেষ্টা করবো। */
 
-/* এটা করতে অনেক নাকানি-চুবানি খেয়েছি,, অনেক না... মোটামুটি বলতে পারেন, চেষ্টা করেছি নিজের সেরাটা দেয়ার,, আপনাদের সেখানো জ্ঞান দিয়েই করেছি, অতিরিক্ত কিছু পারি ও না,দেই ও নি, ফরমশেন মেলানোর জন্য অনেক ক্লাস ব্যবহার করে ফেলেছি  */
+/* এটা করতে অনেক নাকানি-চুবানি খেয়েছি,, অনেক না... মোটামুটি বলতে পারেন,
+ চেষ্টা করেছি নিজের সেরাটা দেয়ার,, আপনাদের সেখানো জ্ঞান দিয়েই করেছি,
+  অতিরিক্ত কিছু পারি ও না,দেই ও নি, ফরমশেন মেলানোর জন্য অনেক ক্লাস ব্যবহার করে ফেলেছি  */
