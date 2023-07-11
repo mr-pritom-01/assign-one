@@ -9,11 +9,12 @@
 /* manu bar starts */
 .logo-photo {
     width: 180px;
-    height: 15vh;
+    height: auto;
     box-shadow: 2px 2px 5px;
     border: none;
     border-radius: 100px;
     background-color: rgba(255, 99, 71, 0.476);
+    cursor: pointer;
 }
 
 .menu-bar {
@@ -97,6 +98,7 @@
 
 .primary-btn:hover {
     cursor: pointer;
+    padding: 25px 45px;
 }
 
 
@@ -131,6 +133,7 @@
     gap: 340px;
 }
 
+
 .boxx {
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
@@ -138,8 +141,19 @@
     height: 550px;
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px;
 }
-
+.boxx:hover {
+    background-color: #e5a9b6;
+    padding: 15px;
+}
+.two {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.three {
+    background-color: rgba(71, 125, 17, 0.15);
+}
 .boxx-img {
     height: min-content;
     width: min-content;
@@ -238,6 +252,7 @@
     gap: 23px;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -246,6 +261,7 @@
 .subscribe-part {
     background-image: url('Flower Asset/Rectangle\ 9.png');
     height: 450px;
+    width: auto;
     border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center;
@@ -290,7 +306,7 @@ footer {
 
 .foter-hd {
     padding-top: 80px;
-    font-size: 65px;
+    font-size: 80px;
     text-align: center;
 }
 
@@ -299,13 +315,14 @@ footer {
     font-size: 23px;
     font-weight: 400;
     line-height: 30px;
-    padding: 20px;
+    padding-top: 50px;
 }
 
 .end-line {
     color: rgba(255, 255, 255, 0.40);
     font-size: 19px;
     font-weight: 400;
+    padding-top: 90px;
 }
 
 /* The End */
