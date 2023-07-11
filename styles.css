@@ -1,3 +1,7 @@
+
+/* বিগহিনার হিসেবে অনেক ভুল এবং অনেক কমতি থাকতে পারে,
+সেসব ভুল আমাদের ধরিয়ে দিলে সেসব ঠিক করার চেষ্টা করবো। */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,7 +11,7 @@
 .logo-photo {
     width: 180px;
     height: 15vh;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 2px 2px 5px;
     border: none;
 }
 
@@ -25,6 +29,7 @@
     gap: 30px;
     font-size: 30px;
     padding: 20px;
+    font-weight: bold;
 }
 
 .lis:hover {
@@ -97,7 +102,7 @@
 
 
 
-/* the deal section starts */
+/* the hot deal section starts */
 .deal-container {
     /* width: 1922px; */
     height: 620px;
@@ -132,6 +137,7 @@
     background-color: white;
     height: 100vh;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .insta-pg {
@@ -157,6 +163,8 @@
 
 }
 
+/* get the latest deal part starts here */
+
 .subscribe-part {
     background-image: url('Flower Asset/Rectangle\ 9.png');
     height: 450px;
@@ -178,7 +186,45 @@
     font-size: 20px;
     color: rgba(39, 39, 39, 0.60);
 }
+
 .center {
     text-align: center;
     padding: 85px;
 }
+
+/* final task footer section starts here */
+footer {
+    height: 450px;
+    background-color: #111010;
+    color: white;
+}
+.footer-content {
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primary-color {
+    color: #E55473;
+}
+.foter-hd {
+    padding-top: 80px;
+    font-size: 65px;
+}
+.foter-pg {
+    color: rgba(255, 255, 255, 0.90);
+font-size: 23px;
+font-weight: 400;
+line-height: 30px;
+padding: 20px;
+}
+.end-line {
+    color: rgba(255, 255, 255, 0.40);
+font-size: 19px;
+font-weight: 400;
+}
+
+/* The End */
+
+/* বিগহিনার হিসেবে অনেক ভুল এবং অনেক কমতি থাকতে পারে,
+সেসব ভুল আমাদের ধরিয়ে দিলে সেসব ঠিক করার চেষ্টা করবো। */
